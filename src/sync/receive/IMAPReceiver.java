@@ -132,8 +132,7 @@ public class IMAPReceiver {
 			Properties pro = new Properties();
 			Session session = Session.getInstance(pro);
 			Store store = session.getStore("imap");
-			//store.connect("imap.qq.com", 143, "gjq901130@qq.com", "300015300015");
-			store.connect("imap.163.com", 143, "namespace2100@163.com", "901130");
+			store.connect("imap.163.com", 143, "mailtest10000@163.com", "qwerty");
 			IMAPFolder f = (IMAPFolder)store.getFolder("INBOX");
 			f.open(Folder.READ_WRITE);
 			for(Message m : f.getMessages()){
