@@ -1,0 +1,9 @@
+
+A file synchronization tool(similar to dropbox).
+
+Use Netease(163.com) e-mail server as the storage side.
+
+The default storage directory is C:\tmp, which should be created manually
+ in case of misuse.
+
+Author: victor2100

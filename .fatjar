@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Jan 24 16:46:34 CST 2012
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=C\:\\Users\\Administrator\\Desktop\\icloud\\cloud.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=main
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=
